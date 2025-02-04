@@ -14,16 +14,16 @@ namespace ApplicationTODOlist
         {
             todolist = new List<Item>();
         }
-        //    public void ShowTodoList()
+        public void ShowTodoList()
 
-        //    {
-        //        Console.WriteLine();
-        //        for (int i = 0; i < todolist.Count; i++)
-        //        {
-        //            Console.WriteLine((i + 1) + " : " + todolist[i].GetDataList());
-        //        }
+        {
+            Console.WriteLine();
+            for (int i = 0; i < todolist.Count; i++)
+            {
+                //Console.WriteLine((i + 1) + " : " + todolist[i].GetDataList());
+            }
 
 
-        //    }
-        //}
+        }
     }
+}
